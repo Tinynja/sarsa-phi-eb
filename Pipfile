@@ -6,8 +6,9 @@ name = "pypi"
 [packages]
 jupyterlab = "*"
 ale-py = "*"
+gym = "*"
 
 [dev-packages]
 
 [requires]
-python_version = ">3.6"
+python_version = "3"
