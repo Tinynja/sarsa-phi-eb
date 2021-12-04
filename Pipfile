@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jupyterlab = "~=2.3.2"
+jupyterlab = "*"
 ale-py = "*"
 
 [dev-packages]
