@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 jupyterlab = "*"
 ale-py = "*"
+matplotlib = "*"
+numpy = "*"
+torch = "*"
 
 [dev-packages]
 
