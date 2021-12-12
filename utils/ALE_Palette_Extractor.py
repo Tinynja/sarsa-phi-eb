@@ -23,7 +23,7 @@ args = parser.parse_args()
 
 
 ale = ALEInterface()
-unique_colors = torch.empty((0,3), dtype=int)
+unique_colors = torch.empty((0,3), dtype=torch.int32)
 
 for rom in ROMS._RESOLVED_ROMS:
 	try:
@@ -39,7 +39,7 @@ for rom in ROMS._RESOLVED_ROMS:
 # Print the palette
 print('Here is the gathered palette:')
 print(unique_colors)
-print(f'Shape of the palette: {unique_colors.shape}')
+print(f'Shape of the palette: {unique_colors.shape}, {unique_colors.dtype}')
 
 # Save the palette as pickle
 export_path = Path(__file__).resolve().parent.parent.joinpath('palettes', f'{args.DISPLAY_FORMAT}_Palette.pickle')
