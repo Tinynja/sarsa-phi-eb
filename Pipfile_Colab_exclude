@@ -1,1 +1,6 @@
 jupyterlab
+matplotlib
+numpy
+torch
+pyglet
+pandas
