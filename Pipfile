@@ -9,6 +9,8 @@ ale-py = "*"
 matplotlib = "*"
 numpy = "*"
 torch = "*"
+pyglet = "*"
+pandas = "*"
 
 [dev-packages]
 
